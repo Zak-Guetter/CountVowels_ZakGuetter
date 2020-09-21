@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Count Vowels" Height="288.251" Width="622.517">
     <Grid>
-        <TextBox x:Name="Phrase" HorizontalAlignment="Left" Height="60" TextWrapping="Wrap" VerticalAlignment="Top" Width="573" Margin="14,34,0,0"/>
+        <TextBox x:Name="Phrase" HorizontalAlignment="Left" Height="60" TextWrapping="Wrap" VerticalAlignment="Top" Width="573" Margin="14,34,0,0" ScrollViewer.VerticalScrollBarVisibility="Visible"/>
         <Label Content="Please enter a phrase and I will count the vowels." HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,11,0,0"/>
         <TextBox x:Name="NumbVowels" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Margin="327,171,0,0"/>
         <Label Content="Number of vowels in your phrase:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="141,172,0,0"/>
